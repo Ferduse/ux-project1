@@ -1,7 +1,19 @@
-.main {
-    background-color: pink;
+body {
+    background-color: #C1E1C1;
 }
 
-.header h1 {
+.title {
+    align-items: center;
+    color: #967969;
     font-family: "EB Garamond";
+    font-weight: bold;
+
+}
+
+.content {
+    color: #967969;
+    font-family: "EB Garamond";
+    font-size: large;
+    align-self: center;
+
 }

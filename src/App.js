@@ -23,7 +23,7 @@ export default function App() {
   );
 }
 
-const navStyle = {textDecoration: "none", color:"pink"};
+const navStyle = {textDecoration: "none", color:"#967969"};
 function Layout() {
   return (
     <div>
