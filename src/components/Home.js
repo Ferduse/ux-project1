@@ -3,6 +3,10 @@ import planthome from './img/Plant_home.webp'
 import coffee1 from './img/coffee1.gif'
 import sharing from './img/sharing.jpg'
 
+import Card from './Card';
+
+const description = 'Take a sip.'
+
 function Home() {
     return (
         <><><div className='title'>
@@ -27,15 +31,24 @@ function Home() {
 
                 <h3>welcome to plants + coffee!</h3>
                 <br></br>
+                <p>
                 here, you can catch a break and relax in a room
                 filled with plants. You can take a drink and purchase
                 your own cozy plant to take home with you!
+                </p>
+
             </div></>
             
-            <div className='boxes'>
-                <img className="coffee1" src={coffee1}></img>
-
+            <div className='box1'>
+                <div className='image'>
+                    <img className="coffee1" src={coffee1}></img>
+                </div>
+            <div className='coffee1_t'>
+            <p>
+                take a sip of our pipping hot, aromatic and premium coffee
+            </p>
             </div>
+        </div>
             
             
             
