@@ -1,5 +1,6 @@
 body {
     background-color: #C1E1C1;
+    text-align: center;
 }
 
 .title {
@@ -17,8 +18,38 @@ body {
     align-self: center;
 
 }
+p {
+    display: flex;
+    background-color: antiquewhite;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    max-width: 80%;
+    min-width: 500px;
+    margin: 20px 15px;
+    padding: 30px;
+    flex-wrap: wrap;
+    
+}
 
-.coffee1 {
-    border-radius: 60%;
+.box1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image {
+    flex-basis: 40%;
+}
+.coffee1{
     height: 40%;
+    width: 40%;
+    border-radius: 50%;
+} 
+
+.coffee1_t{
+    background-color: antiquewhite;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: #967969;
+    font-family: "EB Garamond";
 }
