@@ -5,6 +5,8 @@ import matcha from './img/matcha.png'
 import cappuccino from './img/cap.webp'
 import croissant from './img/croissant.png'
 import cookie from './img/ccc.png'
+import choco from './img/chocolate_cake.avif'
+import coffee2 from './img/coffee4.gif'
 
 function Menu() {
     return(
@@ -27,7 +29,7 @@ function Menu() {
                 <p>
                     Espresso . . . . . . . . . . . . $3.99
                 </p>
-                <img className='img' src={cappuccino}></img>
+                <img className='img' src={coffee2}></img>
                 <p>
                     Cappuccino . . . . . . . . . . . . $4.99
                 </p>
@@ -47,9 +49,14 @@ function Menu() {
                 <p>
                     Croissant . . . . . . . . . . . . $5.99
                 </p>
-                <img className='img' src={cookie}>
+                <img className='img' src={cookie}></img>
+                <p>
                     Chocolate chip cookie . . . . . . . . . . . . $6.99
-                </img>
+                </p>
+                <img className='img' src={choco}></img>
+                <p>
+                    Chocolate cake . . . . . . . . . . . . $10.99
+                </p>
             </div></>
     );
 
