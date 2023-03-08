@@ -1,0 +1,17 @@
+.plants {
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: 300px 1fr;
+    gap: 1rem;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+    border: 5px solid;
+    border-color: rgb(104, 140, 94);
+    border-style: double;
+  
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
