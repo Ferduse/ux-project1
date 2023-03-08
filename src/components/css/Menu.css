@@ -1,0 +1,41 @@
+.drinks {
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: 300px 1fr;
+    gap: 1rem;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+    border: 5px solid;
+    border-color: rgb(90, 34, 7);
+    border-style: double;
+
+}
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .food{
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: 300px 1fr;
+    gap: 1rem;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+    font: 500 100%;
+    border: 5px;
+    border-color: rgb(109, 34, 6);
+    border-style: double;
+  }
+  p {
+    color: #967969;
+    font-family: "EB Garamond";
+    align-self: center;
+    justify-content: center;
+  }
+  h2 {
+    color: #967969;
+    font-family: "EB Garamond";
+    font-weight: bold;
+  }
