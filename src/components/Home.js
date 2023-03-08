@@ -2,6 +2,8 @@ import './css/Home.css';
 import planthome from './img/Plant_home.webp'
 import coffee1 from './img/coffee1.gif'
 import sharing from './img/sharing.jpg'
+import plant1 from './img/plant1.gif'
+import croissant1 from './img/croissant.png'
 
 import Card from './Card';
 
@@ -27,10 +29,9 @@ function Home() {
             <br>
             </br>
 
-            <div className='content'>
-
-                <h3>welcome to plants + coffee!</h3>
+            <h3>welcome to plants + coffee!</h3>
                 <br></br>
+            <div className='content'>
                 <p>
                 here, you can catch a break and relax in a room
                 filled with plants. You can take a drink and purchase
@@ -49,7 +50,28 @@ function Home() {
             </p>
             </div>
         </div>
+
+        <div className='box2'>
+            <div className='image'>
+                <img className='plant1' src={plant1}></img>
+            </div>
+        <div className='plant1_t'>
+            <p>
+                elegant, radiant, and beautiful plants for your cozy home 
+            </p>
+        </div>
+        </div> 
             
+        <div className='box3'>
+            <div className='image'>
+                <img className='croissant1' src={croissant1}></img>
+            </div>
+        <div className='croissant1_t'>
+            <p>
+                relax and eat some of our cozy food!  
+            </p>
+        </div>
+        </div> 
             
             
             </>
