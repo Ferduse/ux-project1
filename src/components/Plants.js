@@ -27,15 +27,15 @@ function Plants() {
         <div className='plants'>
                 <img className='img' src={plant1}></img>
                 <p>
-                wondrous leaf . . . . . . . . . . . . $30.99
+                Wondrous leaf . . . . . . . . . . . . $30.99
                 </p>
                 <img className='img' src={pottedplant}></img>
                 <p>
-                potted plant . . . . . . . . . . . . $20.99
+                Potted plant . . . . . . . . . . . . $20.99
                 </p>
                 <img className='img' src={mon}></img>
                 <p>
-                monstera plant . . . . . . . . . . . . $15.99
+                Monstera plant . . . . . . . . . . . . $15.99
                 </p>
 
             </div></>
